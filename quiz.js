@@ -183,8 +183,33 @@ const questions = [
         question: "What is an example of a high vowel?",
         choices: ["/i/ as in see", "/æ/ as in cat", "/u/ as in blue", "/ɪ/ as in sit"],
         correct: "/i/ as in see"
+    },
+    {
+        question: "Give an example of a dental sound.",
+        choices: ["/p/ as in pat", "/θ/ as in think", "/t/ as in tap", "/m/ as in mat"],
+        correct: "/θ/ as in think"
+    },
+    {
+        question: "Which of the following is a fricative?",
+        choices: ["/f/ as in fat", "/b/ as in bat", "/k/ as in cat", "/p/ as in pat"],
+        correct: "/f/ as in fat"
+    },
+    {
+        question: "Which sound is produced with the back of the tongue against the soft palate?",
+        choices: ["/k/ as in cat", "/t/ as in tap", "/m/ as in mat", "/f/ as in fat"],
+        correct: "/k/ as in cat"
+    },
+    {
+        question: "What is an example of a diphthong?",
+        choices: ["/aɪ/ as in eye", "/i/ as in see", "/æ/ as in cat", "/u/ as in blue"],
+        correct: "/aɪ/ as in eye"
+    },
+    {
+        question: "Sounds produced with a relatively open vocal tract are called?",
+        choices: ["Stops", "Liquids", "Nasals", "Fricatives"],
+        correct: "Liquids"
     }
-    // Add more questions here
+    // Add more questions here as needed
 ];
 
 let currentQuestionIndex = 0;
